@@ -5,11 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping Cart</title>
+    <script
+      src="https://kit.fontawesome.com/4ebbbf29de.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../output/tailwind.css" />
     <script src="./script.js" defer></script>
   </head>
   <body>
     <h1 class="my-6 text-center text-4xl font-extrabold">My Shopping Cart</h1>
-    
+    <section class="container mx-auto w-full bg-pink-50 p-12">
+      <div
+        class="product mb-6 flex items-center justify-end rounded-2xl bg-white"
+      >
+        <div class="product flex w-1/2 items-center p-4">
+          <img class="h-auto w-1/6" src="./images/product-1.png" alt="" />
+          <h4 class="text-black">iPhone 11 128GB Black</h4>
+        </div>
+        <div class="price flex w-1/2 items-center justify-end px-10">
+          <div class="mx-6">
+            <button><i class="fa-solid fa-minus"></i></button>
+            <input class="w-14 border px-2 py-1" value="1" type="text" />
+            <button><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <h4>$1219</h4>
+          <img class="mx-3" src="./images/remove.png" alt="" />
+        </div>
+      </div>
+      <div
+        class="product mb-6 flex items-center justify-end rounded-2xl bg-white"
+      >
+        <div class="product flex w-1/2 items-center p-4">
+          <img class="h-auto w-1/6" src="./images/product-2.png" alt="" />
+          <h4 class="text-black">iPhone 11 Silicone Case - Black</h4>
+        </div>
+        <div class="price flex w-1/2 items-center justify-end px-10">
+          <div class="mx-6">
+            <button><i class="fa-solid fa-minus"></i></button>
+            <input class="w-14 border px-2 py-1" value="1" type="text" />
+            <button><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <h4>$1219</h4>
+          <img class="mx-3" src="./images/remove.png" alt="" />
+        </div>
+      </div>
+      <div class="product flex items-center justify-end rounded-2xl bg-white">
+        <div class="product flex w-1/2 items-center p-4">
+          <img class="h-auto w-1/6" src="./images/product-1.png" alt="" />
+          <h4 class="text-black">iPhone 11 128GB Black</h4>
+        </div>
+        <div class="price flex w-1/2 items-center justify-end px-10">
+          <div class="mx-6">
+            <button><i class="fa-solid fa-minus"></i></button>
+            <input class="w-14 border px-2 py-1" value="1" type="text" />
+            <button><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <h4>$1219</h4>
+          <img class="mx-3" src="./images/remove.png" alt="" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
