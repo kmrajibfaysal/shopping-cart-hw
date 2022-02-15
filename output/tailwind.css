@@ -468,20 +468,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.m-12 {
-  margin: 3rem;
-}
-
-.m-2 {
-  margin: 0.5rem;
-}
-
-.m-24 {
-  margin: 6rem;
-}
-
 .m-20 {
   margin: 5rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .h-32 {
@@ -490,6 +483,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-32 {
   width: 8rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-1 {
+  width: 0.25rem;
 }
 
 .rounded {
@@ -508,6 +509,29 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-lime-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(132 204 22 / var(--tw-bg-opacity));
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .text-white {
